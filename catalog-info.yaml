@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pre-chartmuseum
+  description: An open-source Helm Chart Repository server
+  tags:
+    - helm
+  links:
+    - url: https://chartmuseum.internal.unity3d.com
+      title: Chartmuseum Production
+      icon: web
+spec:
+  type: service
+  lifecycle: production
+  owner: test
